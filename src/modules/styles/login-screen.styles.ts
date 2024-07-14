@@ -18,7 +18,7 @@ export const BackgroundImage = styled.img`
 
 export const LogoImage = styled.img`
     width: 100%;
-    max-width: 300px;
+    max-width: 498px;
     
 `;
 
@@ -39,4 +39,6 @@ export const LimitedContainer = styled.div`
  max-width: 498px;
  display: flex;
  justify-content: center;
+ flex-direction: column;
+ 
 `;
