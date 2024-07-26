@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { Space, Typography } from 'antd';
+
+const { Text, Title } = Typography;
 
 export const ContainerLoginScreen = styled.div`
     width: 100%;
@@ -18,8 +21,12 @@ export const BackgroundImage = styled.img`
 
 export const LogoImage = styled.img`
     width: 100%;
-    max-width: 498px;
+    max-width: 202px;
     
+`;
+
+export const TitleLogin = styled(Title)`
+    ;
 `;
 
 export const ContainerLogin = styled.div`
@@ -40,5 +47,6 @@ export const LimitedContainer = styled.div`
  display: flex;
  justify-content: center;
  flex-direction: column;
+ align-items: center;
  
 `;
